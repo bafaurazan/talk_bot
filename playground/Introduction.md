@@ -1,16 +1,20 @@
 # Discord bot files
 
-My code version 
+## My code version 
 ```
 Simplebott/bot.py
 ```
 
-Dawid from chatknml code version
+## Dawid from chatknml code version
 ```
-Simplebott/bot.py
+Simplebott/bot_playground.py
+```
+and in
+```
+Simplebott/message.txt
 ```
 
-base version 
+## base version 
 ```
 Simplebott/saves/bot_oryg.py
 ```
