@@ -1,0 +1,32 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is ahead of 'origin/main' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	deleted:    audio_20231130192417.mp3
+#	deleted:    "audio_20231130192441.mp3/Dok\304\205d tupta noc\304\205 je\305\274 - Piekny \305\232wiat.mp4"
+#	modified:   bot.py
+#
+# Changes not staged for commit:
+#	modified:   audio.mp3
+#	modified:   bot.py
+#	deleted:    bot_test.py
+#	deleted:    tempCodeRunnerFile.py
+#
+# Untracked files:
+#	"Dok\304\205d tupta noc\304\205 je\305\274_ - Piekny \305\232wiat....mp4"
+#	bot_playground.py
+#	dependabot_pr.yml
+#	discord_bot1.yml
+#	ffmpeg/
+#	message.txt
+#	output.mp3
+#	output.wav
+#	pytanie.mp3
+#	saves/
+#	test.py
+#
