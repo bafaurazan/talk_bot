@@ -19,7 +19,7 @@ Simplebott/message.txt
 Simplebott/saves/bot_oryg.py
 ```
 
-# system management file
+# system management file !!!
 ```
-./test.py
+./terminal_command.py
 ```
