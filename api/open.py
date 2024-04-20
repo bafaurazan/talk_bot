@@ -6,11 +6,11 @@ from api.settings import my_platform
 BASE_DIR = Path(__file__).resolve().parent
 
 
-def myPlatformDependency():
+def checkPlatformDependency():
     return my_platform == "Windows"
 
 
-dependency = myPlatformDependency()
+dependency = checkPlatformDependency()
 
 
 def app1():
