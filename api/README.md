@@ -1,24 +1,29 @@
 # talk_bot
 
-## To get access to discord bot contact the software administrator
+## To run project
 
-### To run project
+- change file ```.env.example``` to ```.env```
+- in created```.env```file, in ```TOKEN="DISCORD_TOKEN"``` paste **your discord bot token**
 
-change file ```.env.example``` to ```.env```
+## In terminal
 
-### go to folder
+- go to folder
 
 ``` shell
 cd talk_bot/api/
 ```
 
-#### and type
+- and type
+
+``` shell
+poetry install
+```
 
 ``` shell
 poetry run python open.py
 ```
 
-### If you have strugle with python version, type following
+## If you have strugle with python version, type following
 
 ``` shell
 poetry env use 3.12

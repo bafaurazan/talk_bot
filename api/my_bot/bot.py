@@ -1,9 +1,9 @@
 import os
-
 import subprocess
 import discord
 from discord import File
 from gtts import gTTS
+from api.settings import config
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -61,7 +61,7 @@ async def on_message(message):
 
 def mainbot():
     """Entrypoint."""
-    client.run(os.getenv("TOKEN"))
+    client.run(config["TOKEN"])
 
 
 if __name__ == "__main__":
