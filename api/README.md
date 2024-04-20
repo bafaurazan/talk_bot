@@ -10,7 +10,7 @@
 - go to folder
 
 ``` shell
-cd talk_bot/api/
+cd api
 ```
 
 - and type
@@ -23,7 +23,7 @@ poetry install
 poetry run python open.py
 ```
 
-## If you have strugle with python version, type following
+## If you strugle with python version, type the following
 
 ``` shell
 poetry env use 3.12
