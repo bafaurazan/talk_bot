@@ -11,6 +11,7 @@ discord = "^2.3.2"
 gtts = "^2.5.1"
 python-dotenv = "^1.0.1"
 django = "^5.0.4"
+django-ninja = "^1.1.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.4.0"

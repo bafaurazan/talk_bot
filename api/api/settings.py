@@ -1,11 +1,13 @@
 from pathlib import Path
 import os
+import platform
 from dotenv import dotenv_values
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-config = dotenv_values()
+my_platform = platform.system()
 
+config = dotenv_values()
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
