@@ -2,6 +2,8 @@ import discord
 from discord import File
 from gtts import gTTS
 from pytube import YouTube
+import os
+import subprocess
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -30,6 +32,20 @@ async def on_message(message):
 
     if message.content.startswith("$Jezyk"):
         await message.channel.send("W jakim")
+
+    if message.content.startswith("$k1"):
+        os.system("open firefox")
+
+    if message.content.startswith("$k2"):
+        process = subprocess.run(
+            ["C:/Program Files/Git/git-bash", "-c", "C:/maxima-5.45.1/bin/maxima.bat"],
+            capture_output=True,
+        )
+
+    if message.content.startswith("$k3"):
+        process = subprocess.run(
+            ["C:/Program Files/Git/git-bash", "-c", "nano"], capture_output=True
+        )
 
     if message.content.startswith("$generate_audio"):
         text = message.content.replace("$generate_audio", "").strip()
