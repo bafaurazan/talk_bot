@@ -1,8 +1,10 @@
 db.sqlite3
 .env
+env/
 *.bin
 .envrc
 .venv
+venv/
 models/**
 db/
 static/
