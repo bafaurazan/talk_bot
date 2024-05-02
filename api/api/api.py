@@ -1,3 +1,5 @@
+"""All routers are connected here"""
+
 from ninja import NinjaAPI
 from django.urls import path
 

@@ -1,7 +1,11 @@
+"""Models structure"""
+
 from django.db import models
 
 
 class Document(models.Model):
-    command = models.TextField()
-    request_path = models.TextField()
-    documentation = models.TextField(default="No documentation")
+    """Document model structure"""
+
+    command: str = models.TextField()
+    request_path: str = models.TextField()
+    documentation: str = models.TextField(default="No documentation")
