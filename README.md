@@ -15,7 +15,7 @@
 git clone https://github.com/bafaurazan/talk_bot.git
 ```
 
-2. Navigate ro the project direcory:
+2. Navigate to the project directory:
 
 ``` shell
 cd talk_bot

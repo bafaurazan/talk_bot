@@ -1,6 +1,12 @@
-# talk_bot
+# my_bot
 
-1. To run only talk_bot 
+1. Navigate to the directory:
+
+``` shell
+cd talk_bot/my_bot
+```
+
+2. To run only my_bot 
 
 - first install project requirements (info in main path README.md) then:
 
@@ -8,7 +14,7 @@
 poetry run python bot_config/bot.py
 ```
 
-2. To get access to admin-site
+3. To get access to admin-site
 
 - in your main system terminal type:
 
