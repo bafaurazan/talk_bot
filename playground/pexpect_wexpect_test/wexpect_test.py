@@ -1,30 +1,30 @@
 import wexpect
 
-child = wexpect.spawn('cmd.exe')
-child.expect('>')
-child.sendline('ls')
-child.expect('>')
+child = wexpect.spawn("cmd.exe")
+child.expect(">")
+child.sendline("ls")
+child.expect(">")
 print(child.before)
-child.sendline('exit')
+child.sendline("exit")
 child.close()
 
-#https://stackoverflow.com/questions/13891571/how-to-match-a-regular-expression-like-i1-in-python-pexpect
+# https://stackoverflow.com/questions/13891571/how-to-match-a-regular-expression-like-i1-in-python-pexpect
 
-child = wexpect.spawn('C:/maxima-5.45.1/bin/maxima.bat')
-child.expect('(%i1)')
-child.sendline('print(1+1);')
-child.expect('(%o1)')
-print(child.before)
-child.close()
-
-child = wexpect.spawn('C:/maxima-5.45.1/bin/maxima.bat')
-child.expect('(%i1)')
-child.sendline('print(matrix([1,2,3],[4,5,6]));')
-child.expect('(%o1)')
+child = wexpect.spawn("C:/maxima-5.45.1/bin/maxima.bat")
+child.expect("(%i1)")
+child.sendline("print(1+1);")
+child.expect("(%o1)")
 print(child.before)
 child.close()
 
-'''
+child = wexpect.spawn("C:/maxima-5.45.1/bin/maxima.bat")
+child.expect("(%i1)")
+child.sendline("print(matrix([1,2,3],[4,5,6]));")
+child.expect("(%o1)")
+print(child.before)
+child.close()
+
+"""
 print("takowosz")
 child = wexpect.spawn('C:/maxima-5.45.1/bin/maxima.bat')
 child.expect('')
@@ -39,4 +39,4 @@ file_contents = child.read()
 print(file_contents)
 
 child.close()
-'''
+"""
