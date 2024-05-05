@@ -11,5 +11,5 @@ models/**
 db/
 static/
 .idea/
-
+poetry.lock
 **/__pycache__/
