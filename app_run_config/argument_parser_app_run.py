@@ -11,6 +11,7 @@ from app_run_config.functions_app_run import (
 
 from app_run_config.test.test_app_run import (
     test_subprocessing,
+    test_pexpect_wexpect,
 )
 
 
@@ -32,6 +33,7 @@ def argument_parser_for_app_run():
         threading.Thread(target=talk_bot_preparing).start()
     elif args.test:
         threading.Thread(target=test_subprocessing).start()
+        threading.Thread(target=test_pexpect_wexpect).start()
     else:
         threading.Thread(target=api_run).start()
         threading.Thread(target=talk_bot_run).start()
