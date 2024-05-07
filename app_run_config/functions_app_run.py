@@ -39,7 +39,7 @@ def api_preparing():
 def talk_bot_preparing():
     """Crucial preparations for talk_bot operation"""
     subprocess.run(
-        ["cd", str(BASE_DIR / "my_bot/bot_config"), "&&", "poetry", "install"],
+        ["cd", str(BASE_DIR / "my_bot"), "&&", "poetry", "install"],
         shell=shell_execute_type,
         check=True,
     )
