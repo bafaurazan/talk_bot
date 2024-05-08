@@ -15,18 +15,20 @@ def api_preparing():
     os.chdir(BASE_DIR / "api")
     subprocess.run(
         ["poetry", "install"],
+        cwd=str(BASE_DIR / "api"),
         shell=shell_execute_type,
         check=False,
     )
     os.chdir(BASE_DIR / "api")
     subprocess.run(
         ["poetry", "run", "python", "manage.py", "makemigrations"],
+        cwd=str(BASE_DIR / "api"),
         shell=shell_execute_type,
         check=False,
     )
-    os.chdir(BASE_DIR / "api")
     subprocess.run(
         ["poetry", "run", "python", "manage.py", "migrate"],
+        cwd=str(BASE_DIR / "api"),
         shell=shell_execute_type,
         check=False,
     )
@@ -34,9 +36,9 @@ def api_preparing():
 
 def talk_bot_preparing():
     """Crucial preparations for talk_bot operation"""
-    os.chdir(BASE_DIR / "my_bot")
     subprocess.run(
         ["poetry", "install"],
+        cwd=str(BASE_DIR / "my_bot"),
         shell=shell_execute_type,
         check=False,
     )
@@ -44,9 +46,9 @@ def talk_bot_preparing():
 
 def api_run():
     """Running django server"""
-    os.chdir(BASE_DIR / "api")
     subprocess.run(
         ["poetry", "run", "python", "manage.py", "runserver"],
+        cwd=str(BASE_DIR / "api"),
         shell=shell_execute_type,
         check=False,
     )
@@ -54,9 +56,9 @@ def api_run():
 
 def talk_bot_run():
     """Running talk_bot"""
-    os.chdir(BASE_DIR / "my_bot/bot_config")
     subprocess.run(
         ["poetry", "run", "python", "bot.py"],
+        cwd=str(BASE_DIR / "my_bot/bot_config"),
         shell=shell_execute_type,
         check=False,
     )

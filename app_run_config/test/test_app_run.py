@@ -1,6 +1,5 @@
 """Functions for argument_parser_app_run.py"""
 
-import os
 import subprocess
 from pathlib import Path
 from ..platform_dependency_app_run import (
@@ -16,9 +15,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 def test_subprocessing():
     """Testing subprocessing capabilities"""
-    os.chdir(BASE_DIR / "api")
     result = subprocess.run(
         ["poetry", "env", "info"],
+        cwd=str(BASE_DIR / "api"),
         shell=shell_execute_type,
         check=False,
         stdout=subprocess.PIPE,
