@@ -16,19 +16,19 @@ def api_preparing():
     subprocess.run(
         ["poetry", "install"],
         shell=shell_execute_type,
-        check=True,
+        check=False,
     )
     os.chdir(BASE_DIR / "api")
     subprocess.run(
         ["poetry", "run", "python", "manage.py", "makemigrations"],
         shell=shell_execute_type,
-        check=True,
+        check=False,
     )
     os.chdir(BASE_DIR / "api")
     subprocess.run(
         ["poetry", "run", "python", "manage.py", "migrate"],
         shell=shell_execute_type,
-        check=True,
+        check=False,
     )
 
 
@@ -38,7 +38,7 @@ def talk_bot_preparing():
     subprocess.run(
         ["poetry", "install"],
         shell=shell_execute_type,
-        check=True,
+        check=False,
     )
 
 
@@ -48,7 +48,7 @@ def api_run():
     subprocess.run(
         ["poetry", "run", "python", "manage.py", "runserver"],
         shell=shell_execute_type,
-        check=True,
+        check=False,
     )
 
 
@@ -58,5 +58,5 @@ def talk_bot_run():
     subprocess.run(
         ["poetry", "run", "python", "bot.py"],
         shell=shell_execute_type,
-        check=True,
+        check=False,
     )

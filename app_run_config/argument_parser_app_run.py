@@ -29,11 +29,17 @@ def argument_parser_for_app_run():
     args = parser.parse_args()
 
     if args.install:
-        threading.Thread(target=api_preparing).start()
-        threading.Thread(target=talk_bot_preparing).start()
+        thr_api = threading.Thread(target=api_preparing)
+        thr_api.start()
+        thr_talk_bot = threading.Thread(target=talk_bot_preparing)
+        thr_talk_bot.start()
     elif args.test:
-        threading.Thread(target=test_subprocessing).start()
-        threading.Thread(target=test_pexpect_wexpect).start()
+        thr_subbrocessing = threading.Thread(target=test_subprocessing)
+        thr_subbrocessing.start()
+        thr_pexpect_wexpect = threading.Thread(target=test_pexpect_wexpect)
+        thr_pexpect_wexpect.start()
     else:
-        threading.Thread(target=api_run).start()
-        threading.Thread(target=talk_bot_run).start()
+        thr_api = threading.Thread(target=api_run)
+        thr_api.start()
+        thr_talk_bot = threading.Thread(target=talk_bot_run)
+        thr_talk_bot.start()
