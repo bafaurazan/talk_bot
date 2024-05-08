@@ -12,14 +12,18 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 def api_preparing():
     """Crucial preparations for the API and Django operations"""
-    os.chdir(BASE_DIR / "api")
+    subprocess.run(
+        ["poetry", "env", "use", "3.12"],
+        cwd=str(BASE_DIR / "api"),
+        shell=shell_execute_type,
+        check=False,
+    )
     subprocess.run(
         ["poetry", "install"],
         cwd=str(BASE_DIR / "api"),
         shell=shell_execute_type,
         check=False,
     )
-    os.chdir(BASE_DIR / "api")
     subprocess.run(
         ["poetry", "run", "python", "manage.py", "makemigrations"],
         cwd=str(BASE_DIR / "api"),
@@ -36,6 +40,12 @@ def api_preparing():
 
 def talk_bot_preparing():
     """Crucial preparations for talk_bot operation"""
+    subprocess.run(
+        ["poetry", "env", "use", "3.12"],
+        cwd=str(BASE_DIR / "my_bot"),
+        shell=shell_execute_type,
+        check=False,
+    )
     subprocess.run(
         ["poetry", "install"],
         cwd=str(BASE_DIR / "my_bot"),

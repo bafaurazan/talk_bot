@@ -13,6 +13,7 @@ django = "^5.0.4"
 django-ninja = "^1.1.0"
 black = "^24.4.0"
 ruff = "^0.4.1"
+pexpect = "^4.9.0"
 
 [build-system]
 requires = ["poetry-core"]
