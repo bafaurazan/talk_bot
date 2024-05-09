@@ -12,6 +12,7 @@ flet = "^0.22.0"
 black = "^24.4.0"
 ruff = "^0.4.1"
 pyautogui = "^0.9.54"
+psutil = "^5.9.8"
 
 [build-system]
 requires = ["poetry-core"]
