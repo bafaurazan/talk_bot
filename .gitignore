@@ -12,4 +12,5 @@ db/
 static/
 .idea/
 poetry.lock
+**/poetry.lock
 **/__pycache__/
