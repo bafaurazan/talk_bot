@@ -1,13 +1,14 @@
+"""Settings for this project"""
+
 from pathlib import Path
 import os
-import platform
+
 from dotenv import dotenv_values
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-
-my_platform = platform.system()
-
 config = dotenv_values()
+
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
@@ -68,7 +69,7 @@ WSGI_APPLICATION = "api.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / config["SQ_NAME"],
+        "NAME": BASE_DIR / str(config["SQ_NAME"]),
     }
 }
 

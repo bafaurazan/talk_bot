@@ -1,17 +1,25 @@
-# api
+# my_bot
 
 1. Navigate to the directory:
 
 ``` shell
-cd talk_bot/api
+cd talk_bot/my_bot
 ```
 
-2. To run only Django server
+2. To run only my_bot 
 
 - first install project requirements (info in main path README.md) then:
 
 ``` shell
-poetry run python manage.py runserver
+poetry run python bot_config/bot.py
+```
+
+3. To get access to admin-site
+
+- in your main system terminal type:
+
+``` shell
+poetry run python manage.py createsuperuser
 ```
 
 **warning:** The project may not function completely correctly.

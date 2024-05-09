@@ -1,19 +1,19 @@
 [tool.poetry]
-name = "api"
+name = "my_bot"
 version = "0.1.0"
 description = ""
 authors = ["bafaurazan <rafalbe777@gmail.com>"]
 readme = "README.md"
-packages = [{include = "api"}]
+packages = [{include = "bot_config"}]
+
 
 [tool.poetry.dependencies]
 python = "^3.12"
 python-dotenv = "^1.0.1"
-django = "^5.0.4"
-django-ninja = "^1.1.0"
+discord = "^2.3.2"
+gtts = "^2.5.1"
 black = "^24.4.0"
 ruff = "^0.4.1"
-pexpect = "^4.9.0"
 
 [build-system]
 requires = ["poetry-core"]
