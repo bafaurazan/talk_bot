@@ -27,7 +27,7 @@ def test_subprocessing():
 
 
 def test_pexpect_wexpect():
-    """Testing pexpect and expect capabilities"""
+    """Testing pexpect and wexpect capabilities"""
     platform_pexpect = import_pexpect_wexpect()
     if my_platform == "Windows":
         child = platform_pexpect.spawn("cmd")
