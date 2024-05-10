@@ -15,7 +15,7 @@ def add_button():
 
     with open(r'demofile.txt', 'w') as fp:
         for item in ps_list:
-        # write each item on a new line
             fp.write("%s\n" % item)
 
-    return ps_list[10]
+    # page.update()
+    # return ps_list

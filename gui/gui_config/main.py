@@ -11,22 +11,26 @@ def main(page: ft.Page):
     page.title = "talk_bot"
 
     dlg = ft.AlertDialog(
-        title=ft.Text(ps_m.add_button), on_dismiss=lambda e: print("Dialog dismissed!")
+        title=ft.Text("WORKS"), on_dismiss=lambda e: print("Dialog dismissed!")
     )
 
 
     def button_clicked(e):
-        # ps_m.add_button()
+        ps_m.add_button()
         page.dialog = dlg
         dlg.open = True
         page.update()
 
 
     page.window_height = pag.size()[1]
-    page.window_width = pag.size()[0] // 3
+    page.window_width = pag.size()[0] // 8
 
     page.window_top = 0
-    page.window_left = pag.size()[0] - pag.size()[0] / 3
+    page.window_left = pag.size()[0] - pag.size()[0] // 8
+
+    page.window_bgcolor = "transparent"
+    page.window_frameless = True
+    page.window_focused = True
 
 
     buttons = ft.Row(
