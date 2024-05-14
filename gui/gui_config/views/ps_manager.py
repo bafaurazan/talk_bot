@@ -1,12 +1,10 @@
-#!/usr/bin/env python3
-
 """"""
 
 import psutil
 import os
 
 
-def add_button():
+def ps_manager():
     ps_list = []
 
     for proc in psutil.process_iter(["name", "exe"]):
@@ -17,5 +15,4 @@ def add_button():
         for item in ps_list:
             fp.write("%s\n" % item)
 
-    # page.update()
-    # return ps_list
+    return ps_list

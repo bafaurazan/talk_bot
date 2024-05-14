@@ -3,12 +3,12 @@ None
 
 Registry
 C:\Windows\System32\smss.exe
-C:\Windows\System32\svchost.exe
+C:\Windows\System32\SystemSettingsBroker.exe
 C:\Windows\System32\csrss.exe
+C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\wininit.exe
 C:\Windows\System32\csrss.exe
-C:\Windows\System32\svchost.exe
 C:\Windows\System32\services.exe
 C:\Windows\System32\LsaIso.exe
 C:\Windows\System32\lsass.exe
@@ -17,288 +17,281 @@ C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\winlogon.exe
 C:\Windows\System32\fontdrvhost.exe
+C:\Windows\System32\svchost.exe
 C:\Windows\System32\dwm.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
-C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
-C:\Windows\System32\ApplicationFrameHost.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
+C:\Windows\ImmersiveControlPanel\SystemSettings.exe
 C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\RuntimeBroker.exe
-C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Users\boyfa\AppData\Local\Discord\app-1.0.9146\Discord.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_84b2c943d6816eb7\Display.NvContainer\NVDisplay.Container.exe
-C:\Windows\System32\dasHost.exe
-C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe
+C:\Windows\System32\svchost.exe
+C:\Windows\System32\svchost.exe
+C:\Windows\System32\svchost.exe
+C:\Program Files (x86)\Razer\Razer Services\Razer Central\CefSharp.BrowserSubprocess.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Users\boyfa\AppData\Local\Discord\app-1.0.9146\Discord.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
 MemCompression
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
-C:\Windows\System32\conhost.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
+C:\Windows\System32\svchost.exe
+C:\Windows\System32\SecurityHealthService.exe
+C:\Program Files\Common Files\Native Instruments\Hardware\NIHardwareAccessibilityHelper.exe
+C:\Windows\System32\svchost.exe
+C:\Windows\System32\svchost.exe
+C:\Windows\System32\ctfmon.exe
+C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_84b2c943d6816eb7\Display.NvContainer\NVDisplay.Container.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
-C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
-C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Windows\System32\svchost.exe
+C:\Program Files (x86)\Microsoft Office\root\Office16\SDXHelper.exe
+C:\Windows\System32\svchost.exe
+C:\Windows\System32\svchost.exe
 C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe
-C:\Program Files\WindowsApps\Microsoft.GamingApp_2405.1000.46.0_x64__8wekyb3d8bbwe\XboxGameBarWidgets.exe
-C:\Windows\System32\svchost.exe
-C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
-C:\Program Files (x86)\Razer\Synapse3\UserProcess\Razer Synapse Service Process.exe
-C:\Windows\System32\dasHost.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\spoolsv.exe
 C:\Windows\System32\wlanext.exe
+C:\Windows\System32\spoolsv.exe
 C:\Windows\System32\conhost.exe
-C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24030.9-0\MsMpEng.exe
-C:\Windows\System32\svchost.exe
 C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe
-C:\Windows\System32\BtwRSupportService.exe
+D:\steam\steamapps\common\wallpaper_engine\wallpaper32.exe
+C:\Windows\System32\sihost.exe
 C:\Program Files\Bonjour\mDNSResponder.exe
 C:\Windows\System32\svchost.exe
-C:\Program Files (x86)\Autodesk\Autodesk Desktop App\AdAppMgrSvc.exe
-C:\Program Files\Focusrite\Focusrite Control\Server\ControlServer.exe
+C:\Windows\System32\BtwRSupportService.exe
 C:\Program Files (x86)\Common Files\Adobe\ARM\1.0\armsvc.exe
 C:\Windows\System32\svchost.exe
+C:\Windows\System32\svchost.exe
+C:\Program Files (x86)\Autodesk\Autodesk Desktop App\AdAppMgrSvc.exe
 C:\Program Files\Common Files\Macrovision Shared\FlexNet Publisher\FNPLicensingService64.exe
-C:\Program Files (x86)\Razer\Razer Cortex\CortexLauncherService.exe
+C:\Windows\System32\svchost.exe
+C:\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe
 C:\Program Files\Autodesk\Inventor 2019\Moldflow\bin\mitsijm.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24030.9-0\MpDefenderCoreService.exe
-C:\Program Files\Common Files\Native Instruments\Hardware\NIHardwareService.exe
-C:\Program Files\HPPrintScanDoctor\HPPrintScanDoctorService.exe
-C:\Program Files (x86)\Razer\Razer Services\Razer Central\RazerCentralService.exe
-C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe
-C:\Program Files (x86)\Common Files\PACE\Services\LicenseServices\LDSvc.exe
 C:\Program Files\Common Files\Native Instruments\Hardware\NIHostIntegrationAgent.exe
-C:\Program Files\Softube\InstallerDaemon\InstallerService.exe
+C:\Windows\System32\svchost.exe
+C:\Program Files (x86)\Common Files\PACE\Services\LicenseServices\LDSvc.exe
+C:\Windows\System32\svchost.exe
 C:\Program Files (x86)\Razer\Razer Services\GMS\GameManagerService.exe
-C:\Program Files (x86)\Surfshark\Surfshark.Service.exe
-C:\Program Files (x86)\Razer\Razer Services\GMS3\GameManagerService3.exe
-C:\Program Files (x86)\Razer Chroma SDK\bin\RzChromaStreamServer.exe
+C:\Program Files\Common Files\Native Instruments\NTK\NTKDaemon.exe
 C:\Windows\System32\RtkAudUService64.exe
+C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe
+C:\Windows\System32\svchost.exe
+C:\Program Files\Common Files\Native Instruments\Hardware\NIHardwareService.exe
+C:\Program Files (x86)\Surfshark\Surfshark.Service.exe
+C:\Program Files (x86)\Razer\Razer Services\Razer Central\RazerCentralService.exe
 C:\Windows\System32\svchost.exe
 C:\Program Files\WSL\wslservice.exe
+C:\Program Files\Softube\InstallerDaemon\InstallerService.exe
+C:\Program Files (x86)\Razer Chroma SDK\bin\RzChromaStreamServer.exe
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24030.9-0\MpDefenderCoreService.exe
+C:\Program Files (x86)\Razer\Razer Services\GMS3\GameManagerService3.exe
+C:\Windows\System32\svchost.exe
+C:\Program Files (x86)\Razer\Razer Cortex\CortexLauncherService.exe
+C:\Windows\System32\svchost.exe
+C:\Program Files\HPPrintScanDoctor\HPPrintScanDoctorService.exe
+C:\Program Files\Focusrite\Focusrite Control\Server\ControlServer.exe
+C:\Program Files\WindowsApps\Microsoft.GamingServices_21.89.7001.0_x64__8wekyb3d8bbwe\gamingservices.exe
+C:\Program Files\WindowsApps\Microsoft.GamingServices_21.89.7001.0_x64__8wekyb3d8bbwe\gamingservicesnet.exe
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24030.9-0\MsMpEng.exe
+C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
 C:\Program Files (x86)\Origin\OriginWebHelperService.exe
-C:\Program Files\WindowsApps\Microsoft.GamingServices_21.89.7001.0_x64__8wekyb3d8bbwe\gamingservicesnet.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
-C:\Program Files\WindowsApps\Microsoft.GamingServices_21.89.7001.0_x64__8wekyb3d8bbwe\gamingservices.exe
-C:\Users\boyfa\AppData\Local\Programs\Python\Python311\Scripts\poetry.exe
-C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
 D:\steam\steamapps\common\wallpaper_engine\bin\wallpaperservice32_c.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
+C:\Windows\System32\dasHost.exe
+C:\Program Files\WindowsApps\Microsoft.GamingApp_2405.1000.50.0_x64__8wekyb3d8bbwe\XboxGameBarWidgets.exe
+C:\Program Files\WindowsApps\Microsoft.XboxGamingOverlay_7.124.5081.0_x64__8wekyb3d8bbwe\GameBar.exe
 C:\Windows\System32\svchost.exe
-C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
 C:\Program Files\Mozilla Firefox\firefox.exe
-C:\Program Files\Mozilla Firefox\firefox.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\dllhost.exe
-C:\Windows\System32\rundll32.exe
-C:\Program Files\WindowsApps\Microsoft.XboxGamingOverlay_7.124.5061.0_x64__8wekyb3d8bbwe\GameBar.exe
-C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24030.9-0\NisSrv.exe
-C:\Windows\System32\oobe\UserOOBEBroker.exe
-C:\Windows\System32\svchost.exe
-C:\Program Files (x86)\Razer\Razer Services\Razer Central\Razer Central.exe
-C:\Windows\System32\svchost.exe
-C:\Program Files\WindowsApps\Microsoft.WindowsCalculator_11.2401.0.0_x64__8wekyb3d8bbwe\CalculatorApp.exe
-C:\Windows\System32\svchost.exe
-C:\Program Files\WindowsApps\Microsoft.XboxGamingOverlay_7.124.5061.0_x64__8wekyb3d8bbwe\GameBarFTServer.exe
-C:\Windows\System32\AggregatorHost.exe
-C:\Program Files (x86)\Razer\Synapse3\Service\Razer Synapse Service.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\sppsvc.exe
-C:\Windows\System32\SecurityHealthService.exe
-C:\Program Files\Mozilla Firefox\firefox.exe
-C:\Windows\System32\sihost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\taskhostw.exe
+C:\Windows\System32\SearchIndexer.exe
 C:\Windows\SysWOW64\muachost.exe
 C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\RuntimeBroker.exe
-C:\Windows\System32\ctfmon.exe
-C:\Program Files (x86)\Razer Chroma SDK\bin\RzSDKServer.exe
-C:\Program Files (x86)\Steam\steam.exe
-C:\Program Files\PowerToys\PowerToys.CropAndLock.exe
-C:\Windows\explorer.exe
-C:\Program Files (x86)\NVIDIA Corporation\NvNode\NVIDIA Web Helper.exe
-C:\Users\boyfa\AppData\Local\Discord\app-1.0.9146\Discord.exe
-C:\Program Files\PowerToys\PowerToys.AlwaysOnTop.exe
+C:\Program Files (x86)\Razer\Synapse3\Service\Razer Synapse Service.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
-C:\Program Files\PowerToys\KeyboardManagerEngine\PowerToys.KeyboardManagerEngine.exe
-C:\Windows\System32\conhost.exe
-C:\Program Files (x86)\Razer Chroma SDK\bin\RzSDKService.exe
-D:\steam\steamapps\common\wallpaper_engine\wallpaper32.exe
-C:\Windows\System32\svchost.exe
-C:\Users\boyfa\AppData\Roaming\Spotify\Spotify.exe
-C:\Windows\System32\audiodg.exe
-C:\Program Files\PowerToys\WinUI3Apps\PowerToys.Peek.UI.exe
-C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Windows\System32\rundll32.exe
 C:\Windows\System32\svchost.exe
 C:\Windows\System32\svchost.exe
-C:\Windows\System32\conhost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
-C:\Program Files\Mozilla Firefox\firefox.exe
-C:\Program Files\PowerToys\PowerToys.Awake.exe
-C:\Windows\System32\conhost.exe
-C:\Windows\System32\SgrmBroker.exe
 C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\StartMenuExperienceHost.exe
-C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe
-C:\Program Files\Common Files\microsoft shared\ClickToRun\AppVShNotify.exe
-C:\Program Files\PowerToys\PowerToys.PowerLauncher.exe
+C:\Windows\System32\dasHost.exe
+C:\Windows\System32\svchost.exe
+C:\Windows\System32\SgrmBroker.exe
+C:\Windows\System32\svchost.exe
+C:\Windows\System32\svchost.exe
+C:\Windows\System32\svchost.exe
+C:\Windows\System32\AggregatorHost.exe
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24030.9-0\NisSrv.exe
+C:\Windows\System32\dllhost.exe
+C:\Windows\System32\taskhostw.exe
+C:\Windows\System32\svchost.exe
+C:\Windows\explorer.exe
+C:\Windows\System32\svchost.exe
+C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+C:\Program Files\PowerToys\PowerToys.AlwaysOnTop.exe
+C:\Windows\System32\RtkAudUService64.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Program Files (x86)\Razer\Razer Services\Razer Central\Razer Central.exe
+C:\Windows\System32\RuntimeBroker.exe
+C:\Windows\System32\svchost.exe
+C:\Windows\System32\svchost.exe
+C:\Windows\System32\svchost.exe
+C:\Program Files\NVIDIA Corporation\ShadowPlay\nvsphelper64.exe
+C:\Windows\System32\svchost.exe
+C:\Windows\System32\svchost.exe
+C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA Share.exe
+C:\Program Files\PowerToys\PowerToys.ColorPickerUI.exe
+C:\Windows\System32\svchost.exe
+C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA Share.exe
+C:\Program Files (x86)\NVIDIA Corporation\NvNode\NVIDIA Web Helper.exe
+C:\Windows\System32\RuntimeBroker.exe
+C:\Windows\System32\conhost.exe
+C:\Program Files\PowerToys\WinUI3Apps\PowerToys.Peek.UI.exe
 C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\SearchApp.exe
 C:\Windows\System32\RuntimeBroker.exe
-C:\Windows\System32\RuntimeBroker.exe
-C:\Windows\System32\RuntimeBroker.exe
-C:\Windows\System32\conhost.exe
-C:\Program Files\PowerToys\PowerToys.FancyZones.exe
-C:\Users\boyfa\AppData\Roaming\Slate Digital Connect\SDACollector\slate-digital-collector.exe
-C:\Program Files (x86)\Razer Chroma SDK\bin\RZIOTDEVICEMANAGER
-C:\Windows\System32\CompPkgSrv.exe
-C:\Windows\System32\RuntimeBroker.exe
-C:\Users\boyfa\AppData\Roaming\Spotify\Spotify.exe
-C:\Program Files (x86)\Razer Chroma SDK\bin\RzAppManager
-C:\Windows\System32\dllhost.exe
-C:\Windows\System32\conhost.exe
-C:\Windows\System32\svchost.exe
-C:\Program Files (x86)\Razer Chroma SDK\bin\RzDeviceManager
-C:\Program Files\PowerToys\PowerToys.PowerOCR.exe
 C:\Program Files\PowerToys\PowerToys.exe
-C:\Users\boyfa\AppData\Local\Discord\app-1.0.9146\Discord.exe
-C:\Program Files\Common Files\Native Instruments\Hardware\NIHardwareAccessibilityHelper.exe
-C:\Program Files (x86)\Razer\Razer Services\Razer Central\CefSharp.BrowserSubprocess.exe
-C:\Program Files (x86)\Razer\Razer Services\Razer Central\CefSharp.BrowserSubprocess.exe
-C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
-C:\Windows\System32\conhost.exe
-C:\Program Files\PowerToys\PowerToys.ColorPickerUI.exe
-C:\Windows\System32\RuntimeBroker.exe
-C:\Windows\System32\conhost.exe
-C:\Windows\System32\svchost.exe
-C:\Program Files\Mozilla Firefox\firefox.exe
-C:\Windows\System32\conhost.exe
-C:\Program Files\Git\usr\bin\mintty.exe
 C:\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe
-C:\Windows\System32\wbem\WmiPrvSE.exe
-C:\Program Files\WindowsApps\Microsoft.YourPhone_1.24041.108.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe
-C:\Program Files\NVIDIA Corporation\ShadowPlay\nvsphelper64.exe
-C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA Share.exe
-C:\Windows\System32\SystemSettingsBroker.exe
-C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA Share.exe
-C:\Users\boyfa\AppData\Local\Discord\app-1.0.9146\Discord.exe
-C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
-C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA Share.exe
 C:\Windows\System32\RuntimeBroker.exe
-C:\Program Files (x86)\Razer Chroma SDK\bin\RzSmartlightingDeviceManager
-C:\Windows\System32\RtkAudUService64.exe
+C:\Windows\System32\svchost.exe
+C:\Windows\System32\dllhost.exe
+C:\Windows\System32\audiodg.exe
 C:\Program Files\Focusrite\Drivers\Focusrite Notifier.exe
 C:\Program Files (x86)\Razer\Synapse3\WPFUI\Framework\Razer Synapse 3 Host\Razer Synapse 3.exe
-C:\Program Files\Common Files\Native Instruments\NTK\NTKDaemon.exe
+C:\Program Files\PowerToys\PowerToys.FancyZones.exe
 C:\Windows\System32\RuntimeBroker.exe
+C:\Windows\System32\RuntimeBroker.exe
+C:\Program Files (x86)\Razer\Razer Cortex\RazerCortex.exe
+C:\Program Files\PowerToys\PowerToys.PowerLauncher.exe
+C:\Windows\System32\RuntimeBroker.exe
+C:\Windows\System32\oobe\UserOOBEBroker.exe
+C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\LockApp.exe
+C:\Windows\System32\svchost.exe
+C:\Program Files\PowerToys\KeyboardManagerEngine\PowerToys.KeyboardManagerEngine.exe
+C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA Share.exe
+C:\Program Files\PowerToys\PowerToys.Awake.exe
+C:\Program Files (x86)\ASUS\PCE-AC68 WLAN Card Utilities\WlanMgr.exe
+C:\Program Files\PowerToys\PowerToys.CropAndLock.exe
+C:\Program Files (x86)\Razer\Synapse3\UserProcess\Razer Synapse Service Process.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Program Files\PowerToys\PowerToys.PowerOCR.exe
+C:\Users\boyfa\AppData\Roaming\Slate Digital Connect\SDACollector\slate-digital-collector.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\TextInputHost.exe
+C:\Windows\System32\conhost.exe
+C:\Program Files\WindowsApps\Microsoft.YourPhone_1.24041.108.0_x64__8wekyb3d8bbwe\PhoneExperienceHost.exe
+C:\Program Files (x86)\Razer\Razer Services\Razer Central\CefSharp.BrowserSubprocess.exe
+C:\Windows\System32\svchost.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Program Files (x86)\Common Files\Java\Java Update\jusched.exe
+C:\Users\boyfa\AppData\Roaming\Spotify\Spotify.exe
 C:\Program Files (x86)\Razer\Razer Services\Razer Central\CefSharp.BrowserSubprocess.exe
 C:\Program Files (x86)\Razer\Razer Services\Razer Central\CefSharp.BrowserSubprocess.exe
 C:\Program Files (x86)\Razer\Razer Services\Razer Central\CefSharp.BrowserSubprocess.exe
 C:\Users\boyfa\AppData\Roaming\Spotify\Spotify.exe
-C:\Program Files\Git\usr\bin\bash.exe
-C:\Program Files (x86)\Razer\Razer Cortex\RazerCortex.exe
-C:\Program Files (x86)\ASUS\PCE-AC68 WLAN Card Utilities\WlanMgr.exe
-C:\Program Files (x86)\Common Files\Java\Java Update\jusched.exe
-C:\Program Files\WindowsApps\Microsoft.GamingApp_2405.1000.46.0_x64__8wekyb3d8bbwe\XboxPcAppFT.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Program Files\WindowsApps\Microsoft.GamingApp_2405.1000.50.0_x64__8wekyb3d8bbwe\XboxPcAppFT.exe
+C:\Users\boyfa\AppData\Roaming\Spotify\Spotify.exe
+C:\Users\boyfa\AppData\Roaming\Spotify\Spotify.exe
+C:\Users\boyfa\AppData\Roaming\Spotify\Spotify.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
 C:\Windows\System32\svchost.exe
 C:\Users\boyfa\AppData\Roaming\Spotify\Spotify.exe
-C:\Program Files (x86)\Common Files\Steam\SteamService.exe
-C:\Users\boyfa\AppData\Local\Discord\app-1.0.9146\Discord.exe
+C:\Windows\System32\RuntimeBroker.exe
 C:\Program Files\Mozilla Firefox\firefox.exe
-C:\Program Files (x86)\Razer Chroma SDK\bin\RZDIAGNOSTIC
-C:\Program Files (x86)\Razer Chroma SDK\bin\RzBTLEManager
+C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Windows\System32\ApplicationFrameHost.exe
+C:\Windows\System32\RuntimeBroker.exe
+C:\Program Files\WindowsApps\Microsoft.ZuneVideo_10.22091.10061.0_x64__8wekyb3d8bbwe\Video.UI.exe
+C:\Program Files (x86)\Razer Chroma SDK\bin\RzSDKServer.exe
+C:\Program Files (x86)\Razer Chroma SDK\bin\RzSDKService.exe
+C:\Program Files (x86)\Razer Chroma SDK\bin\RzAppManager
 C:\Windows\System32\conhost.exe
+C:\Program Files (x86)\Razer Chroma SDK\bin\RzBTLEManager
+C:\Program Files (x86)\Razer Chroma SDK\bin\RzDeviceManager
+C:\Windows\System32\conhost.exe
+C:\Windows\System32\conhost.exe
+C:\Program Files (x86)\Razer Chroma SDK\bin\RzDiagnostic
+C:\Program Files (x86)\Razer Chroma SDK\bin\RzIoTDeviceManager
+C:\Windows\System32\conhost.exe
+C:\Windows\System32\conhost.exe
+C:\Program Files (x86)\Razer Chroma SDK\bin\RzSmartlightingDeviceManager
+C:\Windows\System32\conhost.exe
+C:\Windows\System32\svchost.exe
+C:\Windows\System32\svchost.exe
+C:\Users\boyfa\AppData\Local\Microsoft\OneDrive\24.070.0407.0003\Microsoft.SharePoint.exe
+C:\Windows\System32\CompPkgSrv.exe
+C:\Program Files\WindowsApps\microsoft.windowscommunicationsapps_16005.14326.21904.0_x64__8wekyb3d8bbwe\HxAccounts.exe
+C:\Program Files\WindowsApps\microsoft.windowscommunicationsapps_16005.14326.21904.0_x64__8wekyb3d8bbwe\HxTsr.exe
+C:\Windows\System32\RuntimeBroker.exe
+C:\Program Files\WindowsApps\microsoft.windowscommunicationsapps_16005.14326.21904.0_x64__8wekyb3d8bbwe\HxOutlook.exe
 C:\Program Files\Mozilla Firefox\firefox.exe
-C:\Program Files\Mozilla Firefox\firefox.exe
-C:\Program Files\Mozilla Firefox\firefox.exe
-C:\Program Files\Mozilla Firefox\firefox.exe
-D:\Programy\workspacer\workspacer.exe
-C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
+C:\Windows\System32\SearchProtocolHost.exe
+C:\Windows\System32\RuntimeBroker.exe
 D:\ds\talk_bot\gui\.venv\Scripts\flet.exe
 C:\Program Files\Mozilla Firefox\firefox.exe
-C:\Users\boyfa\AppData\Roaming\Spotify\Spotify.exe
-C:\Users\boyfa\AppData\Roaming\Spotify\Spotify.exe
-C:\Program Files (x86)\Steam\bin\cef\cef.win7x64\steamwebhelper.exe
-C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
+D:\ds\talk_bot\gui\.venv\Scripts\python.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Program Files\Git\usr\bin\bash.exe
+C:\Windows\System32\SearchFilterHost.exe
+C:\Windows\System32\conhost.exe
+C:\ProgramData\chocolatey\bin\emacs.exe
 C:\Windows\System32\svchost.exe
-C:\tools\emacs\bin\emacs.exe
-C:\Windows\System32\SearchIndexer.exe
-C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Program Files\Git\usr\bin\mintty.exe
+C:\Program Files\Git\usr\bin\bash.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Windows\System32\svchost.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
 C:\Program Files\Mozilla Firefox\firefox.exe
 C:\Program Files\Git\git-bash.exe
 C:\Program Files\Mozilla Firefox\firefox.exe
-D:\Programy\workspacer\workspacer.Watcher.exe
-D:\ds\talk_bot\gui\.venv\Scripts\python.exe
+C:\Python312\python.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
 C:\Program Files\Git\usr\bin\bash.exe
-C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
-C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
-C:\ProgramData\chocolatey\bin\emacs.exe
+C:\tools\emacs\bin\emacs.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
+C:\Windows\System32\svchost.exe
+C:\Users\boyfa\AppData\Local\Programs\Python\Python311\Scripts\poetry.exe
+C:\Windows\System32\cmd.exe
+C:\Program Files\Mozilla Firefox\firefox.exe
+D:\ds\talk_bot\gui\.venv\Scripts\python.exe
+C:\Windows\System32\wbem\WmiPrvSE.exe
 D:\ds\talk_bot\gui\.venv\Lib\site-packages\flet\bin\flet\flet.exe
 C:\Program Files\Mozilla Firefox\firefox.exe
 C:\Program Files\Mozilla Firefox\firefox.exe
-C:\Windows\System32\svchost.exe
 C:\Python312\python.exe
-C:\Program Files\Git\usr\bin\bash.exe
-C:\Program Files\Mozilla Firefox\firefox.exe
-D:\ds\talk_bot\gui\.venv\Scripts\python.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\System32\SearchFilterHost.exe
-C:\Windows\System32\SearchProtocolHost.exe
-C:\Windows\System32\svchost.exe
-C:\Windows\ImmersiveControlPanel\SystemSettings.exe
 C:\Users\boyfa\AppData\Local\Programs\Python\Python311\python.exe
-C:\Windows\System32\cmd.exe
-C:\Python312\python.exe
+C:\Windows\System32\wbem\WmiPrvSE.exe
