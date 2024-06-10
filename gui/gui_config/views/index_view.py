@@ -1,11 +1,12 @@
-""""""
+"""Page view route displaying main page of the app"""
 
 import flet as ft
 
 def IndexView(page, ft=ft):
+    """Displays option buttons and routes after clicking on them"""
+
     def add_command_button(e):
-       # page.go("/add_command")
-       pass
+       page.go("/add_command")
 
     def add_ps_button(e):
        page.go("/add_ps")
@@ -23,7 +24,7 @@ def IndexView(page, ft=ft):
                                     icon=ft.icons.ADD_CIRCLE,
                                     icon_color="green",
                                     icon_size=50,
-                                    tooltip="Add to db",
+                                    tooltip="Add shell command",
                                     on_click=add_command_button
                                 ),
                             ],
@@ -38,7 +39,7 @@ def IndexView(page, ft=ft):
                                     icon=ft.icons.PLAYLIST_ADD_CIRCLE,
                                     icon_color="blue",
                                     icon_size=50,
-                                    tooltip="TODO",
+                                    tooltip="System processes",
                                     on_click=add_ps_button
                                 ),
                             ],
