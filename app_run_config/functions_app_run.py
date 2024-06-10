@@ -72,3 +72,13 @@ def talk_bot_run():
         shell=shell_execute_type,
         check=False,
     )
+
+
+def gui_run():
+    """Running Graohical User Interface"""
+    subprocess.run(
+        ["poetry", "run", "flet", "run", "main.py"],
+        cwd=str(BASE_DIR / "gui/gui_config"),
+        shell=shell_execute_type,
+        check=False
+    )

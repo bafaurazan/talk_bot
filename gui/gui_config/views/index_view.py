@@ -1,6 +1,24 @@
 """Page view route displaying main page of the app"""
 
 import flet as ft
+import requests
+
+
+def get_commands():
+    url = 'http://127.0.0.1:8000/api/document/'
+
+    response = requests.get(url)
+
+    if response.status_code == 200:
+        data = response.json()
+
+    else:
+        print(f"Failed to retrieve items. Status code: {response.status_code}")
+
+
+    return data
+
+
 
 def IndexView(page, ft=ft):
     """Displays option buttons and routes after clicking on them"""
@@ -10,6 +28,10 @@ def IndexView(page, ft=ft):
 
     def add_ps_button(e):
        page.go("/add_ps")
+
+    def list_button(e):
+        get_commands()
+        page.go("/list_commands")
 
 
     content = ft.Row(
@@ -54,7 +76,8 @@ def IndexView(page, ft=ft):
                                     icon=ft.icons.BUILD_CIRCLE,
                                     icon_color="gray",
                                     icon_size=50,
-                                    tooltip="TODO"
+                                    tooltip="List commands",
+                                    on_click=list_button
                                 ),
                             ],
                             alignment=ft.MainAxisAlignment.SPACE_AROUND,

@@ -6,6 +6,7 @@ from views.index_view import IndexView
 from views.settings_view import SettingsView
 from views.add_ps_view import AddPSView
 from views.add_command_view import AddCommandView
+from views.list_commands_view import ListCommandsView
 
 
 class Router:
@@ -18,7 +19,8 @@ class Router:
             "/": IndexView(page), # main page of the app
             "/settings": SettingsView(page), # settings
             "/add_ps": AddPSView(page), # add one of the currently open system processes
-            "/add_command": AddCommandView(page) # add command
+            "/add_command": AddCommandView(page), # add command
+            "/list_commands": ListCommandsView(page) # list all available commands in the database
         }
         self.body = ft.Container(content=self.routes['/'])
 

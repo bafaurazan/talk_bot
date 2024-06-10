@@ -7,6 +7,7 @@ from app_run_config.functions_app_run import (
     talk_bot_preparing,
     api_run,
     talk_bot_run,
+    gui_run,
 )
 
 from app_run_config.test.test_app_run import (
