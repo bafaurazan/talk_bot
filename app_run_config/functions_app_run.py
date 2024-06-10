@@ -38,7 +38,7 @@ def api_preparing():
     )
 
 
-def talk_bot_preparing():
+def discord_bot_preparing():
     """Crucial preparations for talk_bot operation"""
     subprocess.run(
         ["poetry", "env", "use", "3.12"],
@@ -64,7 +64,7 @@ def api_run():
     )
 
 
-def talk_bot_run():
+def discord_bot_run():
     """Running talk_bot"""
     subprocess.run(
         ["poetry", "run", "python", "bot.py"],
