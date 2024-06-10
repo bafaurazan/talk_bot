@@ -42,13 +42,13 @@ def talk_bot_preparing():
     """Crucial preparations for talk_bot operation"""
     subprocess.run(
         ["poetry", "env", "use", "3.12"],
-        cwd=str(BASE_DIR / "my_bot"),
+        cwd=str(BASE_DIR / "discord_bot"),
         shell=shell_execute_type,
         check=False,
     )
     subprocess.run(
         ["poetry", "install"],
-        cwd=str(BASE_DIR / "my_bot"),
+        cwd=str(BASE_DIR / "discord_bot"),
         shell=shell_execute_type,
         check=False,
     )
@@ -68,7 +68,7 @@ def talk_bot_run():
     """Running talk_bot"""
     subprocess.run(
         ["poetry", "run", "python", "bot.py"],
-        cwd=str(BASE_DIR / "my_bot/bot_config"),
+        cwd=str(BASE_DIR / "discord_bot/bot_config"),
         shell=shell_execute_type,
         check=False,
     )
