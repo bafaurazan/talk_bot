@@ -1,5 +1,7 @@
 """Defining views for documents"""
 
+import os
+import subprocess
 from http import HTTPStatus
 from django.http import HttpRequest
 
@@ -13,6 +15,7 @@ from documents.controllers import (
     retrieve_document_controller,
     update_document_controller,
     delete_document_controller,
+    eval_document_controller,
 )
 
 
@@ -51,3 +54,8 @@ def update_document(request: HttpRequest, data: DocumentIn, id: int):
 def delete_document(request: HttpRequest, id: int):
     """Response for DELETE method (deletting object by id)"""
     return delete_document_controller(id)
+
+@router.get("/document/{id}/eval/")
+def eval_document(request: HttpRequest, id: int):
+    """Response for GET method (getting object by id)"""
+    return eval_document_controller(id)
