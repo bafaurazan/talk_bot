@@ -66,6 +66,19 @@ async def on_message(message):
             check=True,
         )
 
+    if message.content.startswith("$k4"):
+        subprocess.run(
+            [
+                "C:/Program Files/Git/git-bash",
+                "-c",
+                "open C:/Program Files/Image-Line/FL Studio 20/FL64.ex",
+            ],
+            capture_output=True,
+            shell=False,
+            check=True,
+        )
+
+
     if message.content.startswith("$generate_audio"):
         text = message.content.replace("$generate_audio", "").strip()
         filename = "audio.mp3"
