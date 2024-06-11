@@ -44,9 +44,3 @@ python app_run.py --install
 ``` shell
 python app_run.py
 ```
-
-## If you strugle with python version, type the following
-
-``` shell
-poetry env use 3.12
-```
