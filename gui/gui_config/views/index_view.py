@@ -1,6 +1,7 @@
 """Page view route displaying main page of the app"""
 
 import flet as ft
+
 import requests
 
 
@@ -21,7 +22,9 @@ def get_commands():
 
 
 def IndexView(page, ft=ft):
-    """Displays option buttons and routes after clicking on them"""
+    """
+    Displays option buttons and routes after clicking on them
+    """
 
     def add_command_button(e):
        page.go("/add_command")
@@ -30,7 +33,6 @@ def IndexView(page, ft=ft):
        page.go("/add_ps")
 
     def list_button(e):
-        get_commands()
         page.go("/list_commands")
 
 

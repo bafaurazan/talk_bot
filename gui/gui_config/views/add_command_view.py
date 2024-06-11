@@ -1,11 +1,13 @@
 """Page view route displaying a text box for user to add their own shell command to database"""
 
 import flet as ft
+
 import json
 import requests
+import os
+import sys
 
 from views.ps_manager import ps_manager as ps_m
-
 
 
 def AddCommandView(page, ft=ft):
@@ -37,6 +39,11 @@ def AddCommandView(page, ft=ft):
         json_data = json.dumps(data)
 
         response = requests.post(url, data=json_data, headers={'Content-Type': 'application/json'})
+
+        python = sys.executable
+        os.execl(python, python, *sys.argv)
+
+
 
 
     def search(e):
