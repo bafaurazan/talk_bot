@@ -1,9 +1,7 @@
-# A gui_config Flet app
-
-An example of a minimal Flet app.
+# Config for GUI
 
 To run the app:
 
 ```
-flet run [app_directory]
+poetry run flet run main.py
 ```
