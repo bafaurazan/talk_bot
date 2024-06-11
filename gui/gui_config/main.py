@@ -26,7 +26,7 @@ def main(page: ft.Page):
 
     # main window settings
     page.window_bgcolor = "transparent"
-    page.window_frameless = True
+    page.window_frameless = False
     page.window_focused = True
     page.window_visible = True
     page.theme_mode = "dark"
