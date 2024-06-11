@@ -1,7 +1,5 @@
 """Defining views for documents"""
 
-import os
-import subprocess
 from http import HTTPStatus
 from django.http import HttpRequest
 
