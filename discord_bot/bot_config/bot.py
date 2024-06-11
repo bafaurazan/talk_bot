@@ -71,7 +71,7 @@ async def on_message(message):
             [
                 "C:/Program Files/Git/git-bash",
                 "-c",
-                "open C:/Program Files/Image-Line/FL Studio 20/FL64.exe",
+                "open C:/Program Files/Image-Line/FL Studio 20/FL64.ex",
             ],
             capture_output=True,
             shell=False,
