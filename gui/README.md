@@ -1,4 +1,6 @@
 # GUI
 
-- listowanie wszystkich dostępnych komend z bazy danych
-- hover over - documentation
+To run the GUI alone (make sure Django server is running):
+```
+poetry run flet run gui_config/main.py
+```
