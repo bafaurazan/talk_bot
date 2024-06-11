@@ -70,6 +70,22 @@ def audio_bot_preparing():
     )
 
 
+def gui_preparing():
+    """Crucial preparations for audio_bot operation"""
+    subprocess.run(
+        ["poetry", "env", "use", "3.12"],
+        cwd=str(BASE_DIR / "gui"),
+        shell=shell_execute_type,
+        check=False,
+    )
+    subprocess.run(
+        ["poetry", "install"],
+        cwd=str(BASE_DIR / "gui"),
+        shell=shell_execute_type,
+        check=False,
+    )
+
+
 def api_run():
     """Running django server"""
     subprocess.run(
@@ -95,6 +111,16 @@ def audio_bot_run():
     subprocess.run(
         ["poetry", "run", "python", "main.py"],
         cwd=str(BASE_DIR / "audio_bot/audio_config"),
+        shell=shell_execute_type,
+        check=False,
+    )
+
+
+def gui_run():
+    """Running django server"""
+    subprocess.run(
+        ["poetry", "run", "flet", "run", "main.py"],
+        cwd=str(BASE_DIR / "gui/gui_config"),
         shell=shell_execute_type,
         check=False,
     )

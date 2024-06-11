@@ -6,9 +6,11 @@ from app_run_config.functions_app_run import (
     api_preparing,
     discord_bot_preparing,
     audio_bot_preparing,
+    gui_preparing,
     api_run,
     discord_bot_run,
     audio_bot_run,
+    gui_run,
 )
 
 from app_run_config.test.test_app_run import (
@@ -34,6 +36,7 @@ def argument_parser_for_app_run():
         threading.Thread(target=api_preparing).start()
         threading.Thread(target=discord_bot_preparing).start()
         threading.Thread(target=audio_bot_preparing).start()
+        threading.Thread(target=gui_preparing).start()
     elif args.test:
         threading.Thread(target=test_subprocessing).start()
         threading.Thread(target=test_pexpect_wexpect).start()
@@ -41,3 +44,4 @@ def argument_parser_for_app_run():
         threading.Thread(target=api_run).start()
         threading.Thread(target=discord_bot_run).start()
         threading.Thread(target=audio_bot_run).start()
+        threading.Thread(target=gui_run).start()
