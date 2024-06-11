@@ -145,18 +145,24 @@
             \item Django-ninja API - framework API dla Django, umożliwiający tworzenie API opartych na modelach Django
             \item Flet - framework do tworzenia aplikacji Flutter w Pythonie
             \item PyAudio - biblioteka umożliwiająca komunikacje języka Python z API PortAudio19, wielo-platformowej biblioteki I/O audio
-
+            \item DoomEmacs - potężne środowisko programistyczne i edytor tekstu
+			\item Discord Api - aplikacja użyta do zdalnego sterowania projektem
         \end{itemize}
 
 
     \section{Struktura projektu}
 
         Cały program składa się z głównego folderu zawierającego plik app\_run.py, służącego do uruchomienia całej aplikacji.
+        
         Następnie podfolder api zawiera konfigurację Django API oraz model documents służący do zapisywania komend skonfigurowanych przez użytkownika w bazie danych.
+        
         Podfolder app\_run\_config zawiera konfigurację oraz uruchamia potrzebne zależności, API oraz interfejs graficzny.
-        Podfolder gui zawiera konfigurację oraz główny kod interfejsu graficznego. Wewnątrz podfolderu gui\_config znajdują się assets - folder z ikonami oraz innymi użytymi assetami, views - folder zawierający skrypty z wyglądem odpowiednich podstron i sekcji aplikacji, routing - folder zawierający skrypt odpowiedzialny za zmianę wyglądu stron interfejsu
-        user\_controls - folder z kontrolkami dla użytkownika, w tym przypadku jest to jedynie kontrolny pasek zadań znajdujący się na samej górze aplikacji.
-        Podfolder my\_bot zawiera konfigurację oraz główny kod bota na platformie Discord komunikającego się z API.
+        
+        Podfolder gui zawiera konfigurację oraz główny kod interfejsu graficznego.
+        
+        Podfolder discord\_bot zawiera konfigurację oraz główny kod bota na platformie Discord komunikającego się z API.
+        
+        Podfolder audio\_bot zawiera konfigurację oraz główny kod bota rozpoznającego dynamicznie mowe.
 
         \begin{center}
 
@@ -165,7 +171,30 @@
         \end{center}
 
 
-
+	\section{Instrukcja obsługi}
+	
+		Starting app development
+		
+			Copy the .env.example file:
+			 
+		\begin{CPP}
+			cp .env.example .env
+		\end{CPP}
+		
+		Modify the environment variables to suit your requirements.
+		Launching services
+		Install app requirements
+		
+		\begin{CPP}
+			python app_run.py --install
+		\end{CPP}
+		
+		run app
+		
+		\begin{CPP}
+			python app_run.py
+		\end{CPP}
+		
 
     \section{Dane wejściowe do działania projektu}
 
@@ -179,6 +208,7 @@
 
     \section{Przykłady działania}
 
+		\subsection{Gui}
         Na początku, zaraz po uruchomieniu programu nie będziemy w stanie od razu wywoływać głosem żadnej komendy, gdyż baza danych jest jeszcze pusta. Aby rozpocząć użytkowanie programu należy dodać komendę, do czego służy pierwszy główny przycisk ``Dodaj komendę''.
 
         \begin{center}
@@ -211,16 +241,30 @@
 
         Następnie wystarczy wypowiedzieć słowa wywołujące oraz komendę, którą wcześniej skonfigurowaliśmy.
 
-
-
+		\subsection{audio\_bot}
+		
+		Mikrofon systemowy analizuje mowe i po krótkiej ciszy, wyszukuje podaną frazę w bazie danych, jeśli ją znajdzie, wykona komende przypisaną do tej frazy.
+		
+		\subsection{discord\_bot}
+		
+		Użytkownik wpisuje w okienku chatu discorda frazę, po czym jest wyszukiwana w bazie. Przypisana komenda do tej frazy się wykonuje.
+		
+		\subsection{DoomEmacs}
+		
+		Użytkownik jest w stanie do bazy dodać komendy elisp, które potrafią zautomatyzować proces programowania, przy uruchomionym emacs serverze.
+		
     \section{Podsumowanie}
 
+		Projekt oferuje możliwość zautomatyzowania codziennych czynności i interakcji z zewnętrznymi urządzeniami. 
+		
+		Wiele dostępnych funkcjonalności jest dopiero bazą, którą można w przyszłości rozwinąć. 
+		
         \subsection{Podział pracy w projekcie}
 
         \begin{itemize}
 
-            \item Rafał Bazan - implementacja Django-ninja API oraz działalności PyAudio
-            \item Jakub Piasek - implementacja oraz design Graficznego interfejsu użytkownika Flet
+            \item Rafał Bazan - Team leader, automatyzacja pracy, implementacja Django-ninja API, działalności: PyAudio, discord-bot, DoomEmacs  (backend)
+            \item Jakub Piasek - design Graficzny interfejsu Flet, funkcjonalność i implementacja gui, działalności discord-bot (frontend)
 
         \end{itemize}
 
