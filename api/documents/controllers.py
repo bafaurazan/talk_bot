@@ -51,6 +51,7 @@ def eval_document_controller(id: int):
     code example:
     "emacsclient -e (with-current-buffer (window-buffer) (latex-insert-block \"center\"))"
     "C:/Program Files/Git/git-bash -c open \"C:/Program Files/Image-Line/FL Studio 20/FL64.exe\""
+    "gnome-terminal -- firefox"
     """
 
     document = Document.objects.get(id=id)
