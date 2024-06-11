@@ -42,8 +42,6 @@ def parseCommand():
 
     return query
 
-response = requests.get("http://localhost:8000/api/document/")
-data = response.json()
 
 if __name__ == "__main__":
     speak('All systems nominal.')
@@ -54,6 +52,8 @@ if __name__ == "__main__":
 
         if query[0] == activationWord:
             query.pop(0)
+            response = requests.get("http://localhost:8000/api/document/")
+            data = response.json()
             for item in data['items']:
                 command = item['command']
                 if command in query:
