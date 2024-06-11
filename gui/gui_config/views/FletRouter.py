@@ -18,7 +18,7 @@ class Router:
         self.routes = {
             "/": IndexView(page), # main page of the app
             "/settings": SettingsView(page), # settings
-            "/add_ps": AddPSView(page), # add one of the currently open system processes
+            # "/add_ps": AddPSView(page), # add one of the currently open system processes
             "/add_command": AddCommandView(page), # add command
             "/list_commands": ListCommandsView(page) # list all available commands in the database
         }
