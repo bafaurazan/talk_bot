@@ -1,6 +1,7 @@
 """Defining discord bot functionality"""
 
 import os
+import requests
 import subprocess
 import discord
 from discord import File
@@ -27,6 +28,23 @@ async def on_message(message):
     """Bot response for specified input"""
     if message.author == client.user:
         return
+
+
+    response = requests.get("http://localhost:8000/api/document/")
+    data = response.json()
+
+    for item in data['items']:
+        command = item['command']
+        command_id = item['id']
+
+
+    if message.content.startswith("$"):
+        search_term = message.content[1:]
+        url = f'http://localhost:8000/api/document/{command_id}/eval/'
+
+        response = requests.get(url)
+        await message.channel.send(f"Done.")
+
 
     if message.content.startswith("$hello"):
         await message.channel.send("Hellod!")
