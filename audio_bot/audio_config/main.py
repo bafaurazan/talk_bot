@@ -9,6 +9,7 @@ import pyttsx3
 import webbrowser
 import wikipedia
 import wolframalpha
+import requests
 
 # Speech engine initialisation
 engine = pyttsx3.init()
@@ -41,7 +42,9 @@ def parseCommand():
 
     return query
 
-# Main loop
+response = requests.get("http://localhost:8000/api/document/")
+data = response.json()
+
 if __name__ == "__main__":
     speak('All systems nominal.')
 
@@ -51,26 +54,10 @@ if __name__ == "__main__":
 
         if query[0] == activationWord:
             query.pop(0)
+            for item in data['items']:
+                command = item['command']
+                if command in query:
+                    command_id = item['id']
+                    url = f'http://localhost:8000/api/document/{command_id}/eval/'
 
-            # list command
-            """
-            if 'hello' in query:
-                speak('Greetings, all')
-            else:
-                query.pop(0) # remove say
-                speech = ' '.join(query)
-                speak(speech)
-            """
-            if 'firefox' in query:
-                os.system("open firefox")
-            if 'maxima' in query:
-                subprocess.run(
-                    [
-                        "C:/Program Files/Git/git-bash",
-                        "-c",
-                        "C:/maxima-5.45.1/bin/wxmaxima.exe",
-                    ],
-                    capture_output=True,
-                    shell=False,
-                    check=True,
-                )
+                    response = requests.get(url)

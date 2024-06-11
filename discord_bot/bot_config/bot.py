@@ -71,13 +71,12 @@ async def on_message(message):
             [
                 "C:/Program Files/Git/git-bash",
                 "-c",
-                "open C:/Program Files/Image-Line/FL Studio 20/FL64.ex",
+                "open C:/Program Files/Image-Line/FL Studio 20/FL64.exe",
             ],
             capture_output=True,
             shell=False,
             check=True,
         )
-
 
     if message.content.startswith("$generate_audio"):
         text = message.content.replace("$generate_audio", "").strip()
