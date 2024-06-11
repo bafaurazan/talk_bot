@@ -57,8 +57,8 @@ def eval_document_controller(id: int):
     text = document.request_path
 
     part1 = re.findall(r"^\s*(.*?)\s-", text)[0]
-    part2 = re.findall(r' (-\w+)', text)[0]
-    part3 = re.findall(r" -\w+ (.*)", text)[0]
+    part2 = re.findall(r' (-(?:\w+|-))', text)[0]
+    part3 = re.findall(r" -(?:\w+|-) (.*)", text)[0]
 
     my_command = [part1, part2, part3]
     subprocess.run(
