@@ -15,7 +15,7 @@ import requests
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)  # 0 = male, 1 = female
-activationWord = 'computer'  # Single word
+activationWord = 'bot'  # Single word
 
 def speak(text, rate = 120):
     engine.setProperty('rate', rate)
@@ -32,11 +32,11 @@ def parseCommand():
 
     try:
         print('Recognizing speech...')
-        query = listener.recognize_google(input_speech, language='en_gb')
+        query = listener.recognize_google(input_speech, language='pl-PL')
         print(f'The input speech was: {query}')
     except Exception as exception:
-        print('I did not quite catch that')
-        speak('I did not quite catch that')
+        print('Nie znaleziono')
+        speak('Nie znaleziono')
         print(exception)
         return 'None'
 
